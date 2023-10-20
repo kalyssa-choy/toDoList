@@ -1,11 +1,13 @@
 h1{
     text-align:center;
     font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .addBar{
     margin: 20px auto;
     width: 800px;
     height: 30px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #toDo{
     width:750px;
@@ -20,10 +22,9 @@ h1{
     background-color:#35b5ff;
 }
 .list{
-    border: solid black 1px;
     width: 80%;
     margin: 10px auto;
-    
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #addButton:active{
@@ -31,6 +32,33 @@ h1{
 }
 
 .task-block{
-    height: 300px;
     border: 1px solid black;
+    font-size: 22px;
+    display:flex;
+    justify-content: space-between;
+}
+.item-text{
+    width: 85%;
+    text-align:center;
+    height: 30px;
+    display: inline-block;
+}
+.task-block button{
+    height: 40px;
+    margin: auto;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.fButton{
+    border-radius: 10px;
+    width: 90px; 
+    background: #ff355d;
+}
+.fButton:active{
+    background: #cc2b4b;
+}
+.rButton{
+    width: 50px;
+    border-radius: 5px;
+    background: none;
 }

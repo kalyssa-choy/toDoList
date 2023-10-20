@@ -7,19 +7,22 @@
     <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Jost:wght@300&family=Outfit:wght@100&family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>To Do List</h1>
+    <div id = "all">
+        <h1>To Do List</h1>
 
-    <div class = "addBar">
-        <input type="text" name="userToDo" id="toDo">
-        <button id = "addButton">+</button>
-    </div>
+        <!--For the adding task area-->
+        <div class = "addBar">
+            <input type="text" name="userToDo" id="toDo">
+            <button id = "addButton">+</button>
+        </div>
 
-    <div class="list">
-        <!-- <div>
-            <p>random text</p>
-        </div> -->
+        <!--The actual to do list-->
+        <div class="list" id = "list"></div>
     </div>
 </body>
 </html>
